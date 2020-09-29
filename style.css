@@ -1,0 +1,18 @@
+.header{ padding: 2rem 0; position: fixed; left: 0; top: 0; 
+        width: 100%;}
+.container{ justify-content: space-between; align-items: center;}
+
+.header1{ font-size: 30px; width: 300px; text-align: center; margin-top: 0;}
+#nav-bar ul{ margin: 0; padding: 0; list-style: none;  margin-top: 15px; width: 300px; position: absolute;}
+#nav-bar ul li{ margin-top: 20px; text-align: center;}
+.nav-link{ font-size: 20px; text-decoration: none; margin-left: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+main{ margin-left: 300px; margin-right: 50px;}
+.main-section{ font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+code{ font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#title{ font-size: 30px;}
+
+@media only screen and (max-width: 767px) {
+    .header1{ font-size: 20px; width: 25%; text-align: center;}
+    #nav-bar ul{ margin: 0; padding: 0; list-style: none;  margin-top: 15px; width: 25%; position: absolute;}
+    main{ margin-left: 190px; margin-right: 25px;}
+}
